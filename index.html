@@ -5,18 +5,22 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<script src = "main.js"></script>
+	<script src = "player.js"></script>
+	<body onload = "init();">
 		<div class="container">
 			<div class="blurb">
 	    		<h1>Hi, I'm _____.</h1>
 	    		<div class="list">
 	    			<p>a) Trent<br>b) a student at the University of Minnesota<br>c) not creative<br>d) all of the above
 	    			</p>
+	    			<p><span id="answer">p :ɹǝʍsuɐ</span></p>
 	    		</div> <!-- /.list -->
 			</div><!-- /.blurb -->
 			<p>
 				<a href="https://github.com/trentonguyen">github</a> / <a href="mailto:nguy2284@umn.edu">email</a> / <a href="">résumé</a>
 			</p>
 		</div> <!-- /.container -->
+		<canvas id="myCanvas"></canvas>
 	</body>
 </html>

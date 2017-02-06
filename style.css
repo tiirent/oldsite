@@ -2,6 +2,9 @@
 	text-align: center;
 	padding-top: 150px;
 	color:white;
+	position: absolute;
+	width:50%;
+	left:25%;
 }
 
 .blurb{
@@ -23,6 +26,15 @@
 	overflow: hidden;
 }
 
+#myCanvas{
+	background: black;
+}
+#answer{
+	font-size: 10px;
+	color: #c9c9c9;
+
+}
+
 a { 
 	position: relative;
 	text-decoration: none;
@@ -36,5 +48,7 @@ a {
 body{
 	background-color: black;
 	position: relative;
+	width:100%;
+	height:100%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
