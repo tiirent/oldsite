@@ -1,0 +1,39 @@
+.container{
+	text-align: center;
+	padding-top: 150px;
+}
+
+.blurb{
+	display: inline-block;
+	text-align: left;
+}
+
+.list{
+	padding-left:5em;
+}
+
+#nav {
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	height: 30px;
+	font-size: 15px;
+	background: rgba(0,0,0,.4);
+	transition: background-color .3s, height .3s;
+	overflow: hidden;
+}
+
+a { 
+	position: relative;
+	text-decoration: none;
+	color: #08e;
+	transition: color .3s; 
+	border-color: .3s;
+	background-color: .3s;
+	opacity: .3s;
+}
+
+body{
+	background-color: lightgrey;
+	position: relative;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
