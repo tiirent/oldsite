@@ -1,6 +1,7 @@
 .container{
 	text-align: center;
 	padding-top: 150px;
+	color:white;
 }
 
 .blurb{
@@ -33,7 +34,7 @@ a {
 }
 
 body{
-	background-color: lightgrey;
+	background-color: black;
 	position: relative;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
