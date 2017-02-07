@@ -1,13 +1,7 @@
-var score;
-var health;
-var radius;
-function Player(){
-	this.dx = 0;
-	this.dy = 0;
-	this.x = 500;
-	this.y = 500;
-	this.radius = 25;
-	this.killed = false;
+
+function Player(x,y){
+	this.x = x;
+	this.y = y;
 }
 
 Player.prototype.draw = function(ctx){
@@ -20,7 +14,11 @@ Player.prototype.draw = function(ctx){
 	}
 }
 
-Player.prototype.move = function(mX,mY){
+Player.prototype.move = function(mX, mY){
 	this.x = this.x + mX;
 	this.y = this.y + mY;
+}
+
+Player.prototype.shoot = function(mX, mY){
+	
 }
